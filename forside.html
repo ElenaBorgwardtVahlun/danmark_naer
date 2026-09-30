@@ -1,11 +1,136 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>forside</title>
+  <!-- Forbereder forbindelsen til Google fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Forbereder forbindelsen til selve font filerne -->
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Henter Source Sans 3, Semibold Italic, 600(bold) -->
+     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Source+Sans+3:ital,wght@1,600&display=swap%22 rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styleforside.css">
+
+    <title>Danmark Nær</title>
 </head>
+
 <body>
+    <section class="background">
+        <header>
+        <nav class="menu">
+            <a class="knap forside" href="forside.html">Forside</a>
+            <a class="knap omos" href="omos.html">Om os</a>
+            <a class="knap destination" href="destination.html">Destination</a>
+         </nav>
+        </header>
     
-</body>
+
+    <main>
+        <section class="banner">
+            <img class="sol" src="/css/baggrund/solen.png" alt="sol">
+
+            <h1 class="overskrift">Danmark nær</h1>
+            <h2 class="underoverskrift">Ferie lige om hjørnet</h2>
+
+            <form class="soegebar">
+                <input type="text" placeholder="Hvor vil du hen">
+                <input type="text" placeholder="Indtjekning og Udtjekning"> 
+                
+                <select id="vaerelser" name="vaerelser">
+                    <option value="">Vælg værelser og gæster</option>
+                    <option value="1-1">1 værelse, 1 gæst</option>
+                    <option value="1-2">1 værelse, 2 gæster</option>
+                    <option value="1-3">1 værelse, 3 gæster</option>
+                    <option value="2-4">2 værelser, 4 gæster</option>
+                    <option value="2-5">2 værelser, 5 gæster</option>
+                </select>
+                
+                <button type="submit">Søg</button>
+            </form>
+        </section>
+    </main>
+    </section>
+       
+        <section class="ophold">
+        <h2>Find dit ophold</h2>
+        <p>Hvad har du lyst til?</p>
+
+        <div class="Ophold-billeder">
+            <article class="ophold-kort">
+                <img src="billeder/nordjylland.png" alt="Nordjylland">
+                <div class="kort tekst">
+                <h3>Løkken</h3> 
+                <p>Nyd lange sandstrande, hyggelige gader og få følelsen af dansk sommerstemning</p> 
+                <a href="Se ophold"></a> 
+                </div>
+            </article>
+
+            <article class="Ophold-billeder">
+                <img src="billeder/fyn.png" alt="Fyn">
+                <div class="kort tekst">
+                    <h4>Egeskov slotspark</h4>
+                    <p>Eventyr, natur og historie</p>
+                    <p>Oplev den smukke slotspark med grønne haver, labyrinter og hyggelige områder omkring slottet</p>
+                    <a href="Se ophold"></a>
+                </div>
+            </article>
+
+            <article class="Ophold-billeder">
+                <img src="billeder/københavn.png" alt="Sjælland">
+                <div class="kort tekst">
+                    <h5>København</h5>
+                    <p>Grøn storby, hygge og kultur</p>
+                    <p>Oplev en levende storby med fokus på bæredygtighed, cykelture og lokale oplevelser</p>
+                    <a href="Se ophold"></a>
+                </div>
+            </article>
+        </div>
+        </section>
+
+        <section class="favoritter">
+            <h6>Vores favoritter</h6>
+            <p>Særlige oplevelser</p>
+
+            <div class="favorit-billeder">
+
+                <article class="favorit-kort">
+                    <img src="ophold/Sommerhus.png" alt="Hyggeligt Sommerhus">
+                    <h7>Sommerhus i grønne omgivelser</h7>
+                </article>
+            
+                <article class="favorit-kort">
+                    <img src="ophold/Vingård.png" alt="Dansk Vingård">
+                    <h8>Rundvisning på dansk vingård med mulighed for at opleve vinmarker og smage på produkterne</h8>
+                    <p>Oplev vinmarker og smag på produkterne.</p>
+                </article>
+                
+
+                <article class="favorit-kort">
+                    <img src="ophold/København.png" alt="Opdag København">
+                    <h9>Opdag København</h9>
+                    <p>Start i Nyhavn og oplev storbyens historie, kultur og hyggelige byliv.</p>
+                </article>
+
+                <article class="favorit-kort">
+                    <img src="ophold/kage.png" alt="Dansk kaffebord">
+                    <h10>Smag på Danmark</h10>
+                    <p>Der er ingen Danmarkstur uden en smag af det danske kaffebord.</p>
+                </article>
+            </div>
+        </section>
+
+
+
+  
+
+
 </html>
+
+
+   
+
+
+
+
+
